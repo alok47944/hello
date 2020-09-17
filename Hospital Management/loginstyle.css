@@ -1,0 +1,116 @@
+*{
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+.banner{
+	
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(medicine.jpg);
+	width: 1535px;
+	height: 740px;
+	
+
+}
+
+
+.box{
+	
+	top: 70px;
+	left: 500px;
+	padding: 40px 20px;
+	width: 400px;
+	height: 400px;
+	background-color: white;
+	position: relative;
+align-items: center;
+	justify-content: center;
+	box-shadow: 0 0 2px 3px grey; 
+}
+
+
+label{
+	
+	font-size: 1.2em;
+	
+}
+
+
+	
+}
+
+form{
+	margin: 20px 5px;
+}
+
+
+input{
+	border: 1px solid transparent;
+	border-bottom: 1px solid #1e1e1e;
+}
+
+.button{
+	border-radius: 20px;
+	width: 220px;
+	
+}
+
+.button .btn2{
+	height:50px ;
+	width:230px ;
+	display: center;
+	font-size: 1.2em;
+	margin: 30px;
+	color: white;
+	background:linear-gradient(to right, #b3ffab,#12fff7);
+	cursor: pointer;
+	border-radius: 30px;
+	border:transparent;
+}
+
+
+
+.button .btn1{
+	position: relative;
+	display:block
+	font-size: 1.2em;
+	margin-bottom: 40px; 
+	color: white;
+	margin-left: 120px;
+	background:linear-gradient(to right, #b3ffab,#12fff7);
+	cursor: pointer;
+	border-radius: 30px;
+	border:transparent;
+	padding:0 0;
+	width:100px; 
+	height: 40px;
+}
+
+
+
+.bx2{
+	margin-top: 20px;
+}
+
+
+
+
+
+.socio{
+	height:40px ;
+	width:50px ;
+	padding: 30px 10px;
+	cursor: pointer;
+	margin-left: 10px;
+}
+.icon{
+	align-items: center;
+	justify-content: center;
+	margin-left: 10px;
+}
+
+

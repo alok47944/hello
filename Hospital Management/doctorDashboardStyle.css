@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body{
+	
+	background-image: url(doctor.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+ul li a{
+	text-decoration: none;
+	
+}
+
+ul{
+	list-style: none;
+}
+
+.border{
+	width: 1535px;
+	height: 70px;
+	background-color: #063646;
+	display: flex;
+}
+
+
+
+.box{
+	
+	height: 680px;
+	width: 220px;
+	background-color:#042331;
+}
+
+.border .menu{
+	
+    float: right;
+	padding-left:1200px;
+}
+
+.box .items{
+	padding: 30px 0;
+}
+
+.box .items li{
+	padding: 10px 0;
+}
+
+
+.border .menu li{
+	display: inline-block;
+	padding: 10px ;
+	
+}
+
+.border .menu li a{
+	font-size: 1.2em;
+	color: white;
+	
+}
+
+
+.box .items ul a:hover{
+	padding-left: 30px;
+	
+	
+}
+
+.box .items ul a{
+	
+	transition: .6s ease;
+	color: white;
+	    
+	
+}
+
+.box .items li{
+	 border-bottom:1px solid rgba(0,0,0,0) ;
+    border-top:1px solid black ;
+	
+}
+
+h1{
+	padding: 6px;
+	color: white;
+	
+}
+
+.items{
+	line-height: 60px;
+}
+
+
+
+.box .items .ul a{
+	line-height: 40px;
+}
+
+.items li{
+	margin-left: 10px;
+}
+

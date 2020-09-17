@@ -1,0 +1,187 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: serif;
+}
+
+.banner{
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(hospital.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 750px;
+}
+
+
+
+
+
+
+.logo{
+	
+	height: 110px;
+	width: 200px;
+	padding: 20px 50px;
+	top: 40px;
+	display: inline-block;
+}
+
+
+
+
+h2{
+	font-size: 140px;
+	color: white;
+	 padding: 10px 10px;
+	letter-spacing: 3px;
+	
+}
+
+
+h4{
+	font-size:2.8em;
+	color:white;
+	letter-spacing: 4px;
+	 
+	 
+}
+
+
+.main{
+	text-align: center;
+	margin-top: 120px;
+}
+
+.border{
+padding-top: 30px;
+	widows: 90px;
+	height: 50px;
+}
+ul{
+	list-style: none;
+	float: right;
+	flex: 1;
+	
+}
+
+
+ul li{
+	float: right;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: black;
+	opacity: .8;
+	
+}
+
+
+
+ul li a{
+	color: white;
+	font-size:20px ;
+	text-decoration: none;
+	display: block;
+}
+
+.bar{
+	color: white;
+	font-size:50px ;
+	text-decoration: none;
+}
+
+ul li a:hover{
+	background-color:green;
+}
+ul li ul li{
+	display: none;
+}
+
+
+ul li:hover ul li{
+	display: block;
+}
+
+
+.doctor{
+	height: 200px;
+	width: 200px;
+	padding: 10px;
+	padding-left: 20px;
+
+
+}
+
+.member{
+	
+	
+	background-color: #191919;
+
+	height: 400px;
+	align-items: center;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	margin-top: 300px;
+	transition: .5s;
+}
+
+
+.socio{
+	height:40px ;
+	width:50px ;
+	padding: 30px 10px;
+	cursor: pointer;
+	margin-left: 10px;
+	color: #191919;
+		
+}
+.icon{
+	background-color: #191919;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	
+}
+
+		
+.banner .member:hover .box {
+	
+	opacity: .3;
+}
+
+.banner .member .box:hover {
+	
+	opacity:1;
+}
+.banner .member .box {
+	
+	transition: .5s;
+}
+
+
+p1{
+	color: white;
+}
+
+.info{
+	color: white;
+}
+
+p{
+	color: white;
+	letter-spacing: 5px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
